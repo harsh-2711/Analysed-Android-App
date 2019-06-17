@@ -3,4 +3,12 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="food_progress">#93c572</color>
+    <color name="food_progress_bar">#9093c572</color>
+    <color name="attractions_progress">#0198E1</color>
+    <color name="attractions_progress_bar">#900198E1</color>
+    <color name="hotels_progress">#800080</color>
+    <color name="hotels_progress_bar">#90800080</color>
+    <color name="activities_progress">#cb4154</color>
+    <color name="activities_progress_bar">#90cb4154</color>
 </resources>
