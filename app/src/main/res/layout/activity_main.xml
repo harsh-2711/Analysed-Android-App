@@ -24,7 +24,7 @@
         android:text="Who are you?"
         android:textSize="15sp"
         android:textColor="#8d8ba4"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:textStyle="bold"
         android:textAllCaps="true"/>
@@ -32,7 +32,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="45dp">
+        android:layout_marginTop="25dp">
 
         <TextView
             android:layout_width="0dp"
@@ -138,9 +138,9 @@
             android:textColor="#fff"
             android:layout_above="@id/alreadyHaveAccount"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="5dp"
             android:textSize="16sp"/>
-        
+
         <LinearLayout
             android:id="@+id/userNameLayout"
             android:layout_width="300dp"
@@ -222,6 +222,7 @@
                 android:textSize="18sp" />
         </LinearLayout>
 
+        <!--
         <LinearLayout
             android:id="@+id/confirmPasswordLayout"
             android:layout_below="@id/passwordLayout"
@@ -248,6 +249,6 @@
                 android:textColor="#fff"
                 android:textSize="18sp" />
         </LinearLayout>
-
+-->
     </RelativeLayout>
 </LinearLayout>
