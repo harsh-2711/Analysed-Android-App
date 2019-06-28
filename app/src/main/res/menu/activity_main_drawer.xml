@@ -1,23 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
     <group>
         <item android:id="@+id/nav_item_one"
-            android:title="Item 1" />
+            android:title="Create Virtual Recruitment"
+            android:icon="@drawable/profile_black"/>
         <item android:id="@+id/nav_item_two"
-            android:title="Item 2" />
+            android:title="My Database"
+            android:icon="@drawable/profile_black"/>
         <item android:id="@+id/nav_item_three"
-            android:title="Item 3" />
+            android:title="Job Listings"
+            android:icon="@drawable/profile_black"/>
         <item android:id="@+id/nav_item_four"
-            android:title="Item 4" />
+            android:title="Resume Sorting Tool"
+            android:icon="@drawable/profile_black"/>
         <item android:id="@+id/nav_item_five"
-            android:title="Item 5" />
+            android:title="Create A Task"
+            android:icon="@drawable/profile_black"/>
         <item android:id="@+id/nav_item_siz"
-            android:title="Item 6" />
+            android:title="Create A Challenge"
+            android:icon="@drawable/profile_black"/>
         <item android:id="@+id/nav_item_seven"
-            android:title="Item 7" />
+            android:title="Share A Profile"
+            android:icon="@drawable/profile_black"/>
         <item android:id="@+id/nav_item_eight"
-            android:title="Item 8" />
+            android:title="Referral"
+            android:icon="@drawable/profile_black"/>
         <item android:id="@+id/nav_item_nine"
-            android:title="Item 9" />
+            android:title="About Organization"
+            android:icon="@drawable/profile_black" />
     </group>
+
 </menu>
